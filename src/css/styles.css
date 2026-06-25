@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 2px black;
+}
+
+#bday-age  {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#bday-date {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+
+#kofi_pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #070707;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.giftwrap-picture {
+    background-image: url(/images/gift-cover.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border: 5px solid white;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+
+#gif-happy:hover {
+    background-image: url(/images/pokemon-cute.gif);
+}
+
+#gif-weird:hover {
+    background-image: url(/images/quagsire-pokemon.gif);
+}
+
+#gif-crazy:hover {
+    background-image: url(/images/psyduck-running.gif);
+}
+
+#gif-lockin:hover {
+    background-image: url(/images/pokemon-pokemon-origin.gif);
+}
+
+
+#gif-cheers {
+    height: 200px;
+}
+
+#gif-cheers:hover {
+    background-image: url(/images/pokemon-cheer.gif);
+}
+
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.happy-text { 
+    margin-bottom: 10px;
+}
+
+.hover-text {
+    margin-top: 0;
+}
+
+.footer  {
+    width: 400px;
+    margin: 40px auto 20px auto;
+    font-style: italic;
+}
+
+.underline-footer {
+    color: white;
+    text-decoration: underline solid white 1px;
+}
